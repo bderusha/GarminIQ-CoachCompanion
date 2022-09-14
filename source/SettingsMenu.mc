@@ -26,15 +26,10 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     public function onSelect(menuItem as ToggleMenuItem or MenuItem) as Void {
         var id = menuItem.getId();
 
-        if (id == :run) {
-            WatchUi.pushView(new $.TimePicker("runDuration"), new $.TimePickerDelegate("runDuration", _parentView), WatchUi.SLIDE_IMMEDIATE);
-        } else if (id == :walk) {
-            WatchUi.pushView(new $.TimePicker("walkDuration"), new $.TimePickerDelegate("walkDuration", _parentView), WatchUi.SLIDE_IMMEDIATE);
-        } else if (id == :intervalVibrate || id == :intervalTones){
+        if (id == :intervalVibrate || id == :intervalTones){
             Properties.setValue(id.toString(), menuItem.isEnabled());
             _parentView.handleSettingUpdate();
         }
-
     }
 
     //! Handle the back key being pressed

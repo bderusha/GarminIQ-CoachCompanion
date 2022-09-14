@@ -1,9 +1,3 @@
-//
-// Copyright 2016-2021 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 import Toybox.Application.Properties;
 import Toybox.Graphics;
 import Toybox.Lang;
@@ -23,16 +17,11 @@ class SettingsView extends WatchUi.View {
     public function onShow() as Void {
         var menu = new $.SettingsMenu();
 
-        menu.addItem(new WatchUi.MenuItem("Run Time", null, :run, null));
-        menu.addItem(new WatchUi.MenuItem("Walk Time", null, :walk, null));
-        
-        var intervalVibrateKey = "intervalVibrate";
-        var intervalVibrate = Properties.getValue(intervalVibrateKey);
+        var intervalVibrate = Properties.getValue("intervalVibrate");
         var internalVibrateLabel = WatchUi.loadResource($.Rez.Strings.intervalVibrate_setting_title) as String;
         menu.addItem(new WatchUi.ToggleMenuItem(internalVibrateLabel, null, :intervalVibrate, intervalVibrate, null));
         
-        var intervalTonesKey = "intervalTones";
-        var intervalTones = Properties.getValue(intervalTonesKey);
+        var intervalTones = Properties.getValue("intervalTones");
         var internalTonesLabel = WatchUi.loadResource($.Rez.Strings.intervalTones_setting_title) as String;
         menu.addItem(new WatchUi.ToggleMenuItem(internalTonesLabel, null, :intervalTones, intervalTones, null));
 

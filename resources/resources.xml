@@ -2,7 +2,6 @@
 
     <properties>
         <property id="manualRunWalk" type="boolean">false</property>
-        <property id="pushAlert" type="boolean">true</property>
         <property id="runDuration" type="number">60</property>
         <property id="walkDuration" type="number">60</property>
 
@@ -17,7 +16,6 @@
         <string id="manualRunWalk_group_description">This will override any MagicMile pace presets</string>
         <string id="alerts_group_title">Alerts</string>
         <string id="alerts_group_description">How to know when to transition</string>
-        <string id="pushAlert_setting_title">Push to front</string>
         <string id="manualRunWalk_setting_title">Use Custom Run/Walk Time</string>
         <string id="runDuration_setting_title">Run Duration (in seconds)</string>
         <string id="walkDuration_setting_title">Walk Duration (in seconds)</string>
@@ -88,10 +86,6 @@
                 <listEntry value="27">@Strings.mm18_30b</listEntry>
                 <listEntry value="28">@Strings.mm18_30c</listEntry>
             </settingConfig>
-        </setting>
-
-        <setting propertyKey="@Properties.pushAlert" title="@Strings.pushAlert_setting_title">
-            <settingConfig type="boolean" />
         </setting>
 
         <group id="alerts" title="@Strings.alerts_group_title" description="@Strings.alerts_group_description" >

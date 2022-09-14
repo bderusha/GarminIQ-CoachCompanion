@@ -36,7 +36,7 @@ class App extends Application.AppBase {
     //! Return the settings view and delegate for the app
     //! @return Array Pair [View, Delegate]
     public function getSettingsView() as Array<Views or InputDelegates>? {
-        return [new $.DataFieldSettingsView(_mainView), new $.DataFieldSettingsDelegate()] as Array<Views or InputDelegates>;
+        return [new $.SettingsView(_mainView), new $.SettingsDelegate()] as Array<Views or InputDelegates>;
     }
 
 }
