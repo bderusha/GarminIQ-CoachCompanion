@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\Users\User\Documents\GarminProjects\SimpleRunWalkDataField\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="1" lineNum="15" parent="globals/DataFieldAlertView" pc="268435456" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="1" lineNum="16" parent="globals/DataFieldAlertView" pc="268435460" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="1" lineNum="17" parent="globals/DataFieldAlertView" pc="268435478" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="2" lineNum="22" parent="globals/DataFieldAlertView" pc="268435489" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="3" lineNum="10" parent="globals/DataFieldAlertView" pc="268442692" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="3" lineNum="10" parent="globals/DataFieldAlertView" pc="268442692" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="4" lineNum="103" parent="globals/SimpleRunWalkDataFieldView" pc="268435494" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="4" lineNum="104" parent="globals/SimpleRunWalkDataFieldView" pc="268435498" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="4" lineNum="105" parent="globals/SimpleRunWalkDataFieldView" pc="268435516" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="108" parent="globals/SimpleRunWalkDataFieldView" pc="268435529" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="109" parent="globals/SimpleRunWalkDataFieldView" pc="268435533" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="110" parent="globals/SimpleRunWalkDataFieldView" pc="268435561" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="111" parent="globals/SimpleRunWalkDataFieldView" pc="268435589" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="112" parent="globals/SimpleRunWalkDataFieldView" pc="268435600" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="113" parent="globals/SimpleRunWalkDataFieldView" pc="268435628" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="115" parent="globals/SimpleRunWalkDataFieldView" pc="268435659" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="116" parent="globals/SimpleRunWalkDataFieldView" pc="268435690" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="118" parent="globals/SimpleRunWalkDataFieldView" pc="268435721" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="119" parent="globals/SimpleRunWalkDataFieldView" pc="268435749" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="5" lineNum="120" parent="globals/SimpleRunWalkDataFieldView" pc="268435777" symbol="handleSettingUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="123" parent="globals/SimpleRunWalkDataFieldView" pc="268435807" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="124" parent="globals/SimpleRunWalkDataFieldView" pc="268435811" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="125" parent="globals/SimpleRunWalkDataFieldView" pc="268435821" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="126" parent="globals/SimpleRunWalkDataFieldView" pc="268435828" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="127" parent="globals/SimpleRunWalkDataFieldView" pc="268435856" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="137" parent="globals/SimpleRunWalkDataFieldView" pc="268435918" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="129" parent="globals/SimpleRunWalkDataFieldView" pc="268435924" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="130" parent="globals/SimpleRunWalkDataFieldView" pc="268435952" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="133" parent="globals/SimpleRunWalkDataFieldView" pc="268435955" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="6" lineNum="134" parent="globals/SimpleRunWalkDataFieldView" pc="268435983" symbol="compute"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="150" parent="globals/SimpleRunWalkDataFieldView" pc="268435993" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="152" parent="globals/SimpleRunWalkDataFieldView" pc="268435997" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="164" parent="globals/SimpleRunWalkDataFieldView" pc="268436059" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="165" parent="globals/SimpleRunWalkDataFieldView" pc="268436079" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="154" parent="globals/SimpleRunWalkDataFieldView" pc="268436085" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="155" parent="globals/SimpleRunWalkDataFieldView" pc="268436105" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="156" parent="globals/SimpleRunWalkDataFieldView" pc="268436118" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="159" parent="globals/SimpleRunWalkDataFieldView" pc="268436121" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="160" parent="globals/SimpleRunWalkDataFieldView" pc="268436141" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="161" parent="globals/SimpleRunWalkDataFieldView" pc="268436154" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="169" parent="globals/SimpleRunWalkDataFieldView" pc="268436160" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="170" parent="globals/SimpleRunWalkDataFieldView" pc="268436192" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="172" parent="globals/SimpleRunWalkDataFieldView" pc="268436204" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="173" parent="globals/SimpleRunWalkDataFieldView" pc="268436217" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="174" parent="globals/SimpleRunWalkDataFieldView" pc="268436230" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="175" parent="globals/SimpleRunWalkDataFieldView" pc="268436255" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="177" parent="globals/SimpleRunWalkDataFieldView" pc="268436280" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="178" parent="globals/SimpleRunWalkDataFieldView" pc="268436300" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="179" parent="globals/SimpleRunWalkDataFieldView" pc="268436313" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="180" parent="globals/SimpleRunWalkDataFieldView" pc="268436323" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="181" parent="globals/SimpleRunWalkDataFieldView" pc="268436333" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="183" parent="globals/SimpleRunWalkDataFieldView" pc="268436409" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="184" parent="globals/SimpleRunWalkDataFieldView" pc="268436478" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="186" parent="globals/SimpleRunWalkDataFieldView" pc="268436544" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="7" lineNum="187" parent="globals/SimpleRunWalkDataFieldView" pc="268436551" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="8" lineNum="191" parent="globals/SimpleRunWalkDataFieldView" pc="268436615" symbol="onWorkoutStarted"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="8" lineNum="192" parent="globals/SimpleRunWalkDataFieldView" pc="268436619" symbol="onWorkoutStarted"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="8" lineNum="193" parent="globals/SimpleRunWalkDataFieldView" pc="268436642" symbol="onWorkoutStarted"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="9" lineNum="196" parent="globals/SimpleRunWalkDataFieldView" pc="268436655" symbol="onTimerStart"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="9" lineNum="197" parent="globals/SimpleRunWalkDataFieldView" pc="268436659" symbol="onTimerStart"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="9" lineNum="198" parent="globals/SimpleRunWalkDataFieldView" pc="268436670" symbol="onTimerStart"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="9" lineNum="199" parent="globals/SimpleRunWalkDataFieldView" pc="268436686" symbol="onTimerStart"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="10" lineNum="203" parent="globals/SimpleRunWalkDataFieldView" pc="268436706" symbol="onWorkoutStepComplete"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="10" lineNum="204" parent="globals/SimpleRunWalkDataFieldView" pc="268436710" symbol="onWorkoutStepComplete"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="10" lineNum="205" parent="globals/SimpleRunWalkDataFieldView" pc="268436733" symbol="onWorkoutStepComplete"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="208" parent="globals/SimpleRunWalkDataFieldView" pc="268436746" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="209" parent="globals/SimpleRunWalkDataFieldView" pc="268436750" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="210" parent="globals/SimpleRunWalkDataFieldView" pc="268436767" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="211" parent="globals/SimpleRunWalkDataFieldView" pc="268436808" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="212" parent="globals/SimpleRunWalkDataFieldView" pc="268436824" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="213" parent="globals/SimpleRunWalkDataFieldView" pc="268436849" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="11" lineNum="215" parent="globals/SimpleRunWalkDataFieldView" pc="268436868" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="219" parent="globals/SimpleRunWalkDataFieldView" pc="268436885" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="221" parent="globals/SimpleRunWalkDataFieldView" pc="268436889" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="223" parent="globals/SimpleRunWalkDataFieldView" pc="268436902" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="224" parent="globals/SimpleRunWalkDataFieldView" pc="268436913" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="225" parent="globals/SimpleRunWalkDataFieldView" pc="268436929" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="226" parent="globals/SimpleRunWalkDataFieldView" pc="268436948" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="229" parent="globals/SimpleRunWalkDataFieldView" pc="268436961" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="230" parent="globals/SimpleRunWalkDataFieldView" pc="268436990" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="240" parent="globals/SimpleRunWalkDataFieldView" pc="268437078" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="234" parent="globals/SimpleRunWalkDataFieldView" pc="268437084" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="235" parent="globals/SimpleRunWalkDataFieldView" pc="268437112" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="237" parent="globals/SimpleRunWalkDataFieldView" pc="268437115" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="238" parent="globals/SimpleRunWalkDataFieldView" pc="268437143" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="244" parent="globals/SimpleRunWalkDataFieldView" pc="268437152" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="245" parent="globals/SimpleRunWalkDataFieldView" pc="268437181" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="261" parent="globals/SimpleRunWalkDataFieldView" pc="268437269" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="249" parent="globals/SimpleRunWalkDataFieldView" pc="268437275" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="250" parent="globals/SimpleRunWalkDataFieldView" pc="268437341" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="252" parent="globals/SimpleRunWalkDataFieldView" pc="268437344" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="12" lineNum="259" parent="globals/SimpleRunWalkDataFieldView" pc="268437586" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="13" lineNum="266" parent="globals/SimpleRunWalkDataFieldView" pc="268437596" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;getSecondsRemaining&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="13" lineNum="267" parent="globals/SimpleRunWalkDataFieldView" pc="268437600" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;getSecondsRemaining&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="14" lineNum="36" parent="globals/SimpleRunWalkDataFieldView" pc="268441445" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="14" lineNum="46" parent="globals/SimpleRunWalkDataFieldView" pc="268441463" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="14" lineNum="94" parent="globals/SimpleRunWalkDataFieldView" pc="268442637" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldView.mc" id="14" lineNum="36" parent="globals/SimpleRunWalkDataFieldView" pc="268441445" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="16" lineNum="18" parent="globals/DataFieldSettingsView" pc="268437619" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="16" lineNum="19" parent="globals/DataFieldSettingsView" pc="268437623" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="16" lineNum="20" parent="globals/DataFieldSettingsView" pc="268437633" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="23" parent="globals/DataFieldSettingsView" pc="268437652" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="24" parent="globals/DataFieldSettingsView" pc="268437656" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="26" parent="globals/DataFieldSettingsView" pc="268437684" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="27" parent="globals/DataFieldSettingsView" pc="268437734" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="29" parent="globals/DataFieldSettingsView" pc="268437784" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="30" parent="globals/DataFieldSettingsView" pc="268437791" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="31" parent="globals/DataFieldSettingsView" pc="268437810" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="32" parent="globals/DataFieldSettingsView" pc="268437851" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="34" parent="globals/DataFieldSettingsView" pc="268437900" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="35" parent="globals/DataFieldSettingsView" pc="268437907" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="36" parent="globals/DataFieldSettingsView" pc="268437926" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="37" parent="globals/DataFieldSettingsView" pc="268437967" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="17" lineNum="39" parent="globals/DataFieldSettingsView" pc="268438016" symbol="onShow"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="18" lineNum="13" parent="globals/DataFieldSettingsView" pc="268441426" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="18" lineNum="13" parent="globals/DataFieldSettingsView" pc="268441426" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="19" lineNum="47" parent="globals/DataFieldSettingsDelegate" pc="268438081" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="19" lineNum="48" parent="globals/DataFieldSettingsDelegate" pc="268438085" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="20" lineNum="44" parent="globals/DataFieldSettingsDelegate" pc="268441388" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsView.mc" id="20" lineNum="44" parent="globals/DataFieldSettingsDelegate" pc="268441388" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="21" parent="globals/MinSec" pc="268438104" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="22" parent="globals/MinSec" pc="268438108" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="23" parent="globals/MinSec" pc="268438132" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="24" parent="globals/MinSec" pc="268438142" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="25" parent="globals/MinSec" pc="268438152" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="26" parent="globals/MinSec" pc="268438162" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="22" lineNum="27" parent="globals/MinSec" pc="268438187" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="32" parent="globals/MinSec" pc="268438217" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="34" parent="globals/MinSec" pc="268438221" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="35" parent="globals/MinSec" pc="268438234" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="36" parent="globals/MinSec" pc="268438247" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="37" parent="globals/MinSec" pc="268438261" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="38" parent="globals/MinSec" pc="268438275" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="39" parent="globals/MinSec" pc="268438282" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="40" parent="globals/MinSec" pc="268438289" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="41" parent="globals/MinSec" pc="268438296" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="42" parent="globals/MinSec" pc="268438318" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="43" parent="globals/MinSec" pc="268438341" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="44" parent="globals/MinSec" pc="268438364" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="46" parent="globals/MinSec" pc="268438394" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="47" parent="globals/MinSec" pc="268438411" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="48" parent="globals/MinSec" pc="268438425" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="49" parent="globals/MinSec" pc="268438448" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="50" parent="globals/MinSec" pc="268438458" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="51" parent="globals/MinSec" pc="268438495" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="53" parent="globals/MinSec" pc="268438535" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="54" parent="globals/MinSec" pc="268438552" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="55" parent="globals/MinSec" pc="268438566" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="56" parent="globals/MinSec" pc="268438589" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="57" parent="globals/MinSec" pc="268438599" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="58" parent="globals/MinSec" pc="268438636" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="62" parent="globals/MinSec" pc="268438676" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="63" parent="globals/MinSec" pc="268438712" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="65" parent="globals/MinSec" pc="268438724" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="66" parent="globals/MinSec" pc="268438783" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="23" lineNum="67" parent="globals/MinSec" pc="268438849" symbol="draw"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="24" lineNum="13" parent="globals/MinSec" pc="268441407" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="24" lineNum="13" parent="globals/MinSec" pc="268441407" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="100" parent="globals/NumberFactory" pc="268438909" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="104" parent="globals/NumberFactory" pc="268438913" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="106" parent="globals/NumberFactory" pc="268438931" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="107" parent="globals/NumberFactory" pc="268438941" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="108" parent="globals/NumberFactory" pc="268438951" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="109" parent="globals/NumberFactory" pc="268438961" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="111" parent="globals/NumberFactory" pc="268438971" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="112" parent="globals/NumberFactory" pc="268438989" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="113" parent="globals/NumberFactory" pc="268438996" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="115" parent="globals/NumberFactory" pc="268439009" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="118" parent="globals/NumberFactory" pc="268439022" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="119" parent="globals/NumberFactory" pc="268439040" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="120" parent="globals/NumberFactory" pc="268439047" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="25" lineNum="122" parent="globals/NumberFactory" pc="268439060" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="26" lineNum="129" parent="globals/NumberFactory" pc="268439081" symbol="getIndex"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="26" lineNum="130" parent="globals/NumberFactory" pc="268439085" symbol="getIndex"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="137" parent="globals/NumberFactory" pc="268439107" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="138" parent="globals/NumberFactory" pc="268439111" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="139" parent="globals/NumberFactory" pc="268439126" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="140" parent="globals/NumberFactory" pc="268439133" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="142" parent="globals/NumberFactory" pc="268439140" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="143" parent="globals/NumberFactory" pc="268439170" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="144" parent="globals/NumberFactory" pc="268439198" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="145" parent="globals/NumberFactory" pc="268439220" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="146" parent="globals/NumberFactory" pc="268439227" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="147" parent="globals/NumberFactory" pc="268439241" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="148" parent="globals/NumberFactory" pc="268439264" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="150" parent="globals/NumberFactory" pc="268439320" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="151" parent="globals/NumberFactory" pc="268439348" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="152" parent="globals/NumberFactory" pc="268439370" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="153" parent="globals/NumberFactory" pc="268439377" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="154" parent="globals/NumberFactory" pc="268439391" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="156" parent="globals/NumberFactory" pc="268439414" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="27" lineNum="161" parent="globals/NumberFactory" pc="268439483" symbol="getDrawable"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="28" lineNum="170" parent="globals/NumberFactory" pc="268439583" symbol="getValue"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="28" lineNum="171" parent="globals/NumberFactory" pc="268439587" symbol="getValue"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="29" lineNum="176" parent="globals/NumberFactory" pc="268439609" symbol="getSize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="29" lineNum="177" parent="globals/NumberFactory" pc="268439613" symbol="getSize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="30" lineNum="85" parent="globals/NumberFactory" pc="268442673" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="30" lineNum="85" parent="globals/NumberFactory" pc="268442673" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="202" parent="globals/TimePicker" pc="268439647" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="203" parent="globals/TimePicker" pc="268439651" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="204" parent="globals/TimePicker" pc="268439661" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="206" parent="globals/TimePicker" pc="268439765" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="207" parent="globals/TimePicker" pc="268439773" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="208" parent="globals/TimePicker" pc="268439781" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="209" parent="globals/TimePicker" pc="268439794" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="210" parent="globals/TimePicker" pc="268439802" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="212" parent="globals/TimePicker" pc="268439815" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="213" parent="globals/TimePicker" pc="268439823" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="214" parent="globals/TimePicker" pc="268439848" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="215" parent="globals/TimePicker" pc="268439858" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="216" parent="globals/TimePicker" pc="268439868" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="217" parent="globals/TimePicker" pc="268439878" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="219" parent="globals/TimePicker" pc="268439888" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="220" parent="globals/TimePicker" pc="268439911" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="222" parent="globals/TimePicker" pc="268439934" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="223" parent="globals/TimePicker" pc="268440011" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="225" parent="globals/TimePicker" pc="268440144" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="31" lineNum="227" parent="globals/TimePicker" pc="268440221" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="32" lineNum="232" parent="globals/TimePicker" pc="268440276" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="32" lineNum="233" parent="globals/TimePicker" pc="268440280" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="32" lineNum="234" parent="globals/TimePicker" pc="268440316" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="32" lineNum="235" parent="globals/TimePicker" pc="268440328" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="33" lineNum="198" parent="globals/TimePicker" pc="268442654" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="33" lineNum="198" parent="globals/TimePicker" pc="268442654" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="34" lineNum="245" parent="globals/TimePickerDelegate" pc="268440349" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="34" lineNum="246" parent="globals/TimePickerDelegate" pc="268440353" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="34" lineNum="247" parent="globals/TimePickerDelegate" pc="268440363" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="34" lineNum="248" parent="globals/TimePickerDelegate" pc="268440373" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="35" lineNum="253" parent="globals/TimePickerDelegate" pc="268440392" symbol="onCancel"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="35" lineNum="254" parent="globals/TimePickerDelegate" pc="268440396" symbol="onCancel"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="35" lineNum="255" parent="globals/TimePickerDelegate" pc="268440424" symbol="onCancel"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="261" parent="globals/TimePickerDelegate" pc="268440428" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="262" parent="globals/TimePickerDelegate" pc="268440432" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="263" parent="globals/TimePickerDelegate" pc="268440442" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="265" parent="globals/TimePickerDelegate" pc="268440452" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="266" parent="globals/TimePickerDelegate" pc="268440469" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="267" parent="globals/TimePickerDelegate" pc="268440482" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="268" parent="globals/TimePickerDelegate" pc="268440508" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="271" parent="globals/TimePickerDelegate" pc="268440529" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="36" lineNum="272" parent="globals/TimePickerDelegate" pc="268440557" symbol="onAccept"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="37" lineNum="240" parent="globals/TimePickerDelegate" pc="268441282" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\TimePicker.mc" id="37" lineNum="240" parent="globals/TimePickerDelegate" pc="268441282" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="39" lineNum="8" parent="globals/SimpleRunWalkDataFieldApp" pc="268440561" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="39" lineNum="9" parent="globals/SimpleRunWalkDataFieldApp" pc="268440565" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="39" lineNum="10" parent="globals/SimpleRunWalkDataFieldApp" pc="268440583" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="40" lineNum="14" parent="globals/SimpleRunWalkDataFieldApp" pc="268440614" symbol="onStart"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="41" lineNum="18" parent="globals/SimpleRunWalkDataFieldApp" pc="268440619" symbol="onStop"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="42" lineNum="21" parent="globals/SimpleRunWalkDataFieldApp" pc="268440624" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="42" lineNum="22" parent="globals/SimpleRunWalkDataFieldApp" pc="268440628" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="42" lineNum="23" parent="globals/SimpleRunWalkDataFieldApp" pc="268440646" symbol="onSettingsChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="43" lineNum="26" parent="globals/SimpleRunWalkDataFieldApp" pc="268440663" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="43" lineNum="27" parent="globals/SimpleRunWalkDataFieldApp" pc="268440667" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="43" lineNum="28" parent="globals/SimpleRunWalkDataFieldApp" pc="268440685" symbol="onStorageChanged"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="44" lineNum="32" parent="globals/SimpleRunWalkDataFieldApp" pc="268440702" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="44" lineNum="33" parent="globals/SimpleRunWalkDataFieldApp" pc="268440706" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="45" lineNum="38" parent="globals/SimpleRunWalkDataFieldApp" pc="268440730" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="45" lineNum="39" parent="globals/SimpleRunWalkDataFieldApp" pc="268440734" symbol="getSettingsView"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="46" lineNum="5" parent="globals/SimpleRunWalkDataFieldApp" pc="268441320" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="46" lineNum="5" parent="globals/SimpleRunWalkDataFieldApp" pc="268441320" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="47" lineNum="44" parent="globals" pc="268440818" symbol="getApp"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldApp.mc" id="47" lineNum="45" parent="globals" pc="268440830" symbol="getApp"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="49" lineNum="15" parent="globals/DataFieldSettingsMenu" pc="268440847" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="49" lineNum="16" parent="globals/DataFieldSettingsMenu" pc="268440851" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="50" lineNum="12" parent="globals/DataFieldSettingsMenu" pc="268441301" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="50" lineNum="12" parent="globals/DataFieldSettingsMenu" pc="268441301" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="51" lineNum="25" parent="globals/DataFieldSettingsMenuDelegate" pc="268440889" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="51" lineNum="26" parent="globals/DataFieldSettingsMenuDelegate" pc="268440893" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="51" lineNum="27" parent="globals/DataFieldSettingsMenuDelegate" pc="268440911" symbol="initialize"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="32" parent="globals/DataFieldSettingsMenuDelegate" pc="268440922" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="33" parent="globals/DataFieldSettingsMenuDelegate" pc="268440926" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="35" parent="globals/DataFieldSettingsMenuDelegate" pc="268440939" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="36" parent="globals/DataFieldSettingsMenuDelegate" pc="268440950" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="37" parent="globals/DataFieldSettingsMenuDelegate" pc="268441051" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="38" parent="globals/DataFieldSettingsMenuDelegate" pc="268441062" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="43" parent="globals/DataFieldSettingsMenuDelegate" pc="268441163" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="44" parent="globals/DataFieldSettingsMenuDelegate" pc="268441188" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="52" lineNum="45" parent="globals/DataFieldSettingsMenuDelegate" pc="268441226" symbol="onSelect"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="53" lineNum="51" parent="globals/DataFieldSettingsMenuDelegate" pc="268441248" symbol="onBack"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="53" lineNum="52" parent="globals/DataFieldSettingsMenuDelegate" pc="268441252" symbol="onBack"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="54" lineNum="21" parent="globals/DataFieldSettingsMenuDelegate" pc="268441339" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\User\\Documents\\GarminProjects\\SimpleRunWalkDataField\\source\\SimpleRunWalkDataFieldSettingsMenu.mc" id="54" lineNum="21" parent="globals/DataFieldSettingsMenuDelegate" pc="268441339" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="56" lineNum="2" parent="globals/Rez/Drawables" pc="268441382" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="57" lineNum="6" parent="globals/Rez/Fonts" pc="268441384" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="58" lineNum="8" parent="globals/Rez/JsonData" pc="268441386" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="59" lineNum="10" parent="globals/Rez/Layouts" pc="268441385" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="60" lineNum="12" parent="globals/Rez/Menus" pc="268441383" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="61" lineNum="14" parent="globals/Rez/Strings" pc="268441387" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268441358" symbol="&lt;init&gt;"/>
+        <entry filename="Rez" id="62" lineNum="1" parent="globals/Rez" pc="268441358" symbol="&lt;init&gt;"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="8389626" method="true" symbol="onAccept"/>
+        <entry field="true" id="47" symbol="mm17_00c"/>
+        <entry field="true" id="49" symbol="mm17_00b"/>
+        <entry field="true" id="51" symbol="mm17_00a"/>
+        <entry id="8389346" symbol="text"/>
+        <entry field="true" id="61" symbol="magicMilePace_setting_title"/>
+        <entry field="true" id="81" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_walkDuration&gt;"/>
+        <entry id="95" method="true" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;getSecondsRemaining&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="4" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="70" symbol="&lt;globals/MinSec/&lt;&gt;_min&gt;"/>
+        <entry field="true" id="23" symbol="&lt;globals/SimpleRunWalkDataFieldApp/&lt;&gt;_mainView&gt;"/>
+        <entry id="11" object="true" symbol="DataFieldSettingsView"/>
+        <entry field="true" id="86" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_intervalStartAt&gt;"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="100" symbol="&lt;globals/NumberFactory/&lt;&gt;_increment&gt;"/>
+        <entry field="true" id="89" symbol="_runWalkState"/>
+        <entry field="true" id="38" symbol="mm9_30e"/>
+        <entry field="true" id="43" symbol="mm9_30d"/>
+        <entry field="true" id="41" symbol="mm9_30c"/>
+        <entry field="true" id="54" symbol="mm9_30b"/>
+        <entry field="true" id="52" symbol="mm9_30a"/>
+        <entry id="8391698" method="true" symbol="onWorkoutStarted"/>
+        <entry field="true" id="24" symbol="&lt;globals/DataFieldSettingsMenuDelegate/&lt;&gt;_parentView&gt;"/>
+        <entry field="true" id="96" symbol="&lt;globals/TimePicker/&lt;&gt;_storageKey&gt;"/>
+        <entry id="13" object="true" symbol="MinSec"/>
+        <entry id="8390424" module="true" symbol="Storage"/>
+        <entry id="107" symbol="walk"/>
+        <entry field="true" id="21" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;_storageKey&gt;"/>
+        <entry id="10" object="true" symbol="SimpleRunWalkDataFieldView"/>
+        <entry id="8389629" method="true" symbol="getValue"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="48" symbol="manualRunWalk_group_description"/>
+        <entry field="true" id="77" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;MAGIC_MILE_DURATIONS&gt;"/>
+        <entry field="true" id="57" symbol="mm18_30c"/>
+        <entry field="true" id="53" symbol="mm18_30b"/>
+        <entry field="true" id="55" symbol="mm18_30a"/>
+        <entry field="true" id="46" symbol="manualRunWalk_group_title"/>
+        <entry id="8389747" method="true" symbol="onTimerStart"/>
+        <entry field="true" id="35" symbol="AppName"/>
+        <entry field="true" id="22" symbol="&lt;globals/TimePickerDelegate/&lt;&gt;_parentView&gt;"/>
+        <entry field="true" id="68" symbol="walkDuration_setting_title"/>
+        <entry field="true" id="84" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_alertDisplayed&gt;"/>
+        <entry id="109" symbol="intervalTones"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388631" module="true" symbol="Activity"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry id="8389081" method="true" symbol="onBack"/>
+        <entry id="92" method="true" symbol="handleSettingUpdate"/>
+        <entry field="true" id="97" symbol="&lt;globals/NumberFactory/&lt;&gt;_unselectedKeys&gt;"/>
+        <entry field="true" id="104" symbol="&lt;globals/DataFieldAlertView/&lt;&gt;_mainView&gt;"/>
+        <entry id="8390425" module="true" symbol="Properties"/>
+        <entry id="19" object="true" symbol="DataFieldSettingsMenu"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="105" symbol="&lt;globals/DataFieldAlertView/&lt;&gt;_counter&gt;"/>
+        <entry field="true" id="76" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;MILLISECONDS_TO_SECONDS&gt;"/>
+        <entry field="true" id="98" symbol="&lt;globals/NumberFactory/&lt;&gt;_start&gt;"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry id="14" object="true" symbol="NumberFactory"/>
+        <entry id="16" object="true" symbol="TimePicker"/>
+        <entry id="8388764" method="true" symbol="format"/>
+        <entry field="true" id="8388721" symbol="min"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="8389630" method="true" symbol="getSize"/>
+        <entry id="26" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry field="true" id="91" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_displayState&gt;"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="82" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_vibrateEnabled&gt;"/>
+        <entry field="true" id="67" symbol="mm8_30b"/>
+        <entry field="true" id="66" symbol="mm8_30a"/>
+        <entry field="true" id="30" symbol="mm14_30"/>
+        <entry field="true" id="15" symbol="MINUTE_FORMAT"/>
+        <entry id="18" object="true" symbol="SimpleRunWalkDataFieldApp"/>
+        <entry field="true" id="50" symbol="mm7_30"/>
+        <entry id="8389137" method="true" symbol="compute"/>
+        <entry field="true" id="62" symbol="mm7_00"/>
+        <entry id="8388987" method="true" symbol="vibrate"/>
+        <entry field="true" id="8388722" symbol="sec"/>
+        <entry field="true" id="69" symbol="&lt;globals/MinSec/&lt;&gt;_active&gt;"/>
+        <entry id="8389644" symbol="defaults"/>
+        <entry id="17" object="true" symbol="TimePickerDelegate"/>
+        <entry field="true" id="78" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_manualRunWalk&gt;"/>
+        <entry id="7" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="88" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_timerSeconds&gt;"/>
+        <entry id="9" object="true" symbol="DataFieldAlertView"/>
+        <entry field="true" id="102" symbol="&lt;globals/NumberFactory/&lt;&gt;_font&gt;"/>
+        <entry field="true" id="59" symbol="mm12_15c"/>
+        <entry field="true" id="60" symbol="mm12_15b"/>
+        <entry field="true" id="33" symbol="mm12_15a"/>
+        <entry id="8390685" method="true" symbol="onWorkoutStepComplete"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry id="106" symbol="run"/>
+        <entry field="true" id="75" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;STATE_INACTIVE&gt;"/>
+        <entry field="true" id="56" symbol="mm9_00b"/>
+        <entry field="true" id="58" symbol="mm9_00a"/>
+        <entry id="8389628" method="true" symbol="getDrawable"/>
+        <entry field="true" id="34" symbol="mm15_45"/>
+        <entry id="8388985" method="true" symbol="playTone"/>
+        <entry id="110" symbol="none"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry field="true" id="80" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_runDuration&gt;"/>
+        <entry field="true" id="74" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;STATE_WALKING&gt;"/>
+        <entry id="8389619" method="true" symbol="onSelect"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="64" symbol="alerts_group_description"/>
+        <entry field="true" id="71" symbol="&lt;globals/MinSec/&lt;&gt;_sec&gt;"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="12" object="true" symbol="DataFieldSettingsDelegate"/>
+        <entry field="true" id="83" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_tonesEnabled&gt;"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="27" symbol="LauncherIcon"/>
+        <entry field="true" id="90" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_dataColor&gt;"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry field="true" id="36" symbol="mm10_45e"/>
+        <entry field="true" id="42" symbol="mm10_45d"/>
+        <entry field="true" id="44" symbol="mm10_45c"/>
+        <entry field="true" id="39" symbol="mm10_45b"/>
+        <entry field="true" id="40" symbol="mm10_45a"/>
+        <entry field="true" id="31" symbol="pushAlert_setting_title"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry field="true" id="99" symbol="&lt;globals/NumberFactory/&lt;&gt;_stop&gt;"/>
+        <entry field="true" id="73" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;STATE_RUNNING&gt;"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="93" method="true" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry id="8389541" method="true" symbol="onCancel"/>
+        <entry id="8391703" method="true" symbol="getSettingsView"/>
+        <entry field="true" id="37" symbol="intervalVibrate_setting_title"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="72" symbol="&lt;globals/DataFieldSettingsView/&lt;&gt;_parentView&gt;"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="28" symbol="alerts_group_title"/>
+        <entry id="8389347" symbol="color"/>
+        <entry id="108" symbol="intervalVibrate"/>
+        <entry id="8391704" method="true" symbol="onStorageChanged"/>
+        <entry id="94" method="true" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;"/>
+        <entry field="true" id="32" symbol="intervalTones_setting_title"/>
+        <entry id="20" object="true" symbol="DataFieldSettingsMenuDelegate"/>
+        <entry id="103" method="true" symbol="getIndex"/>
+        <entry field="true" id="87" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_intervalEndAt&gt;"/>
+        <entry field="true" id="45" symbol="runDuration_setting_title"/>
+        <entry field="true" id="101" symbol="&lt;globals/NumberFactory/&lt;&gt;_formatString&gt;"/>
+        <entry id="25" module="true" symbol="Layouts"/>
+        <entry id="8388636" module="true" symbol="Attention"/>
+        <entry id="8389643" symbol="pattern"/>
+        <entry field="true" id="65" symbol="mm8_00b"/>
+        <entry field="true" id="63" symbol="mm8_00a"/>
+        <entry id="5" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="29" symbol="manualRunWalk_setting_title"/>
+        <entry field="true" id="85" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_debugMode&gt;"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="8389642" symbol="title"/>
+        <entry field="true" id="79" symbol="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;_magicMilePaceIndex&gt;"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435488" name="view" stackId="1" startPc="268435456"/>
+        <entry arg="true" endPc="268435493" name="dc" stackId="1" startPc="268435489"/>
+        <entry endPc="268435991" name="timerTime" stackId="2" startPc="268435811"/>
+        <entry arg="true" endPc="268435992" name="info" stackId="1" startPc="268435807"/>
+        <entry endPc="268436540" name="timeRemaining" stackId="9" startPc="268436300"/>
+        <entry endPc="268436540" name="minutes" stackId="7" startPc="268436300"/>
+        <entry endPc="268436540" name="secondsRemaining" stackId="6" startPc="268436300"/>
+        <entry endPc="268436540" name="seconds" stackId="8" startPc="268436300"/>
+        <entry endPc="268436613" name="message" stackId="10" startPc="268436544"/>
+        <entry endPc="268436613" name="w" stackId="3" startPc="268435997"/>
+        <entry endPc="268436613" name="thai_h" stackId="4" startPc="268435997"/>
+        <entry endPc="268436613" name="h" stackId="2" startPc="268435997"/>
+        <entry endPc="268436613" name="md_h" stackId="5" startPc="268435997"/>
+        <entry arg="true" endPc="268436614" name="dc" stackId="1" startPc="268435993"/>
+        <entry endPc="268436883" name="workout" stackId="1" startPc="268436750"/>
+        <entry endPc="268437594" name="secondsRemaining" stackId="3" startPc="268436889"/>
+        <entry arg="true" endPc="268437595" name="nextDuration" stackId="2" startPc="268436885"/>
+        <entry arg="true" endPc="268437595" name="nextState" stackId="1" startPc="268436885"/>
+        <entry arg="true" endPc="268437651" name="view" stackId="1" startPc="268437619"/>
+        <entry endPc="268438079" name="intervalTonesKey" stackId="5" startPc="268437656"/>
+        <entry endPc="268438079" name="intervalVibrateKey" stackId="2" startPc="268437656"/>
+        <entry endPc="268438079" name="intervalTones" stackId="6" startPc="268437656"/>
+        <entry endPc="268438079" name="internalTonesLabel" stackId="7" startPc="268437656"/>
+        <entry endPc="268438079" name="internalVibrateLabel" stackId="4" startPc="268437656"/>
+        <entry endPc="268438079" name="intervalVibrate" stackId="3" startPc="268437656"/>
+        <entry endPc="268438079" name="menu" stackId="1" startPc="268437656"/>
+        <entry arg="true" endPc="268438216" name="min" stackId="2" startPc="268438104"/>
+        <entry arg="true" endPc="268438216" name="sec" stackId="3" startPc="268438104"/>
+        <entry arg="true" endPc="268438216" name="active" stackId="1" startPc="268438104"/>
+        <entry endPc="268438907" name="minDim" stackId="10" startPc="268438221"/>
+        <entry endPc="268438907" name="secDim" stackId="11" startPc="268438221"/>
+        <entry endPc="268438907" name="secFont" stackId="5" startPc="268438221"/>
+        <entry endPc="268438907" name="sepW" stackId="7" startPc="268438221"/>
+        <entry endPc="268438907" name="minFont" stackId="4" startPc="268438221"/>
+        <entry endPc="268438907" name="minW" stackId="6" startPc="268438221"/>
+        <entry endPc="268438907" name="buffer" stackId="9" startPc="268438221"/>
+        <entry endPc="268438907" name="h" stackId="2" startPc="268438221"/>
+        <entry endPc="268438907" name="secW" stackId="8" startPc="268438221"/>
+        <entry endPc="268438907" name="sepDim" stackId="12" startPc="268438221"/>
+        <entry endPc="268438907" name="w" stackId="3" startPc="268438221"/>
+        <entry arg="true" endPc="268438908" name="dc" stackId="1" startPc="268438217"/>
+        <entry endPc="268439079" name="font" stackId="7" startPc="268438913"/>
+        <entry endPc="268439079" name="format" stackId="6" startPc="268438913"/>
+        <entry arg="true" endPc="268439080" name="increment" stackId="4" startPc="268438909"/>
+        <entry arg="true" endPc="268439080" name="options" stackId="5" startPc="268438909"/>
+        <entry arg="true" endPc="268439080" name="stop" stackId="3" startPc="268438909"/>
+        <entry arg="true" endPc="268439080" name="unselectedKeys" stackId="1" startPc="268438909"/>
+        <entry arg="true" endPc="268439080" name="start" stackId="2" startPc="268438909"/>
+        <entry arg="true" endPc="268439106" name="value" stackId="1" startPc="268439081"/>
+        <entry endPc="268439316" name="storedMin" stackId="7" startPc="268439198"/>
+        <entry endPc="268439466" name="storedSec" stackId="8" startPc="268439348"/>
+        <entry endPc="268439482" name="i" stackId="6" startPc="268439170"/>
+        <entry endPc="268439581" name="value" stackId="3" startPc="268439111"/>
+        <entry endPc="268439581" name="active" stackId="5" startPc="268439111"/>
+        <entry endPc="268439581" name="text" stackId="4" startPc="268439111"/>
+        <entry arg="true" endPc="268439582" name="index" stackId="1" startPc="268439107"/>
+        <entry arg="true" endPc="268439582" name="selected" stackId="2" startPc="268439107"/>
+        <entry arg="true" endPc="268439608" name="index" stackId="1" startPc="268439583"/>
+        <entry endPc="268440274" name="min" stackId="8" startPc="268439651"/>
+        <entry endPc="268440274" name="sec" stackId="9" startPc="268439651"/>
+        <entry endPc="268440274" name="minKey" stackId="4" startPc="268439651"/>
+        <entry endPc="268440274" name="factories" stackId="3" startPc="268439651"/>
+        <entry endPc="268440274" name="time" stackId="7" startPc="268439651"/>
+        <entry endPc="268440274" name="defaults" stackId="6" startPc="268439651"/>
+        <entry endPc="268440274" name="secKey" stackId="5" startPc="268439651"/>
+        <entry endPc="268440274" name="title" stackId="2" startPc="268439651"/>
+        <entry arg="true" endPc="268440275" name="storageKey" stackId="1" startPc="268439647"/>
+        <entry arg="true" endPc="268440348" name="dc" stackId="1" startPc="268440276"/>
+        <entry arg="true" endPc="268440391" name="view" stackId="2" startPc="268440349"/>
+        <entry arg="true" endPc="268440391" name="storageKey" stackId="1" startPc="268440349"/>
+        <entry endPc="268440525" name="totalTime" stackId="4" startPc="268440469"/>
+        <entry endPc="268440559" name="min" stackId="2" startPc="268440432"/>
+        <entry endPc="268440559" name="sec" stackId="3" startPc="268440432"/>
+        <entry arg="true" endPc="268440560" name="values" stackId="1" startPc="268440428"/>
+        <entry arg="true" endPc="268440618" name="state" stackId="1" startPc="268440614"/>
+        <entry arg="true" endPc="268440623" name="state" stackId="1" startPc="268440619"/>
+        <entry arg="true" endPc="268440921" name="view" stackId="1" startPc="268440889"/>
+        <entry endPc="268441246" name="id" stackId="2" startPc="268440926"/>
+        <entry arg="true" endPc="268441247" name="menuItem" stackId="1" startPc="268440922"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="alerts_group_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="manualRunWalk_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm14_30"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="pushAlert_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="intervalTones_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm12_15a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm15_45"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm10_45e"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="intervalVibrate_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_30e"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm10_45b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm10_45a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_30c"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm10_45d"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_30d"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm10_45c"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="runDuration_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="manualRunWalk_group_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm17_00c"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="manualRunWalk_group_description"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm17_00b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm7_30"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm17_00a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_30a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm18_30b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_30b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm18_30a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_00b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm18_30c"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm9_00a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm12_15c"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm12_15b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="magicMilePace_setting_title"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm7_00"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm8_00a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="alerts_group_description"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm8_00b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm8_30a"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="mm8_30b"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="walkDuration_setting_title"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/TimePickerDelegate" offset="238" parentId="globals" symbolId="TimePickerDelegate" type="class"/>
+        <dataEntry label="globals/DataFieldSettingsMenu" offset="317" parentId="globals" symbolId="DataFieldSettingsMenu" type="class"/>
+        <dataEntry label="globals/SimpleRunWalkDataFieldApp" offset="364" parentId="globals" symbolId="SimpleRunWalkDataFieldApp" type="class"/>
+        <dataEntry label="globals/DataFieldSettingsMenuDelegate" offset="467" parentId="globals" symbolId="DataFieldSettingsMenuDelegate" type="class"/>
+        <dataEntry label="globals/Rez" offset="538" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="617" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="656" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="687" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="718" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="749" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="780" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/DataFieldSettingsDelegate" offset="1139" parentId="globals" symbolId="DataFieldSettingsDelegate" type="class"/>
+        <dataEntry label="globals/MinSec" offset="1186" parentId="globals" symbolId="MinSec" type="class"/>
+        <dataEntry label="globals/DataFieldSettingsView" offset="1265" parentId="globals" symbolId="DataFieldSettingsView" type="class"/>
+        <dataEntry label="globals/SimpleRunWalkDataFieldView" offset="1328" parentId="globals" symbolId="SimpleRunWalkDataFieldView" type="class"/>
+        <dataEntry label="globals/TimePicker" offset="1599" parentId="globals" symbolId="TimePicker" type="class"/>
+        <dataEntry label="globals/NumberFactory" offset="1662" parentId="globals" symbolId="NumberFactory" type="class"/>
+        <dataEntry label="globals/DataFieldAlertView" offset="1789" parentId="globals" symbolId="DataFieldAlertView" type="class"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435488" name="initialize" parent="DataFieldAlertView" startPc="268435456">
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435493" name="onUpdate" parent="DataFieldAlertView" startPc="268435489">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268442710" name="&lt;init&gt;" parent="DataFieldAlertView" startPc="268442692">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435528" name="initialize" parent="SimpleRunWalkDataFieldView" startPc="268435494">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435806" name="handleSettingUpdate" parent="SimpleRunWalkDataFieldView" startPc="268435529">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435992" name="compute" parent="SimpleRunWalkDataFieldView" startPc="268435807">
+            <param id="info"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436614" name="onUpdate" parent="SimpleRunWalkDataFieldView" startPc="268435993">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436654" name="onWorkoutStarted" parent="SimpleRunWalkDataFieldView" startPc="268436615">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436705" name="onTimerStart" parent="SimpleRunWalkDataFieldView" startPc="268436655">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436745" name="onWorkoutStepComplete" parent="SimpleRunWalkDataFieldView" startPc="268436706">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268436884" name="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;manageRunWalkRunWorkout&gt;" parent="SimpleRunWalkDataFieldView" startPc="268436746">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437595" name="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;updateState&gt;" parent="SimpleRunWalkDataFieldView" startPc="268436885">
+            <param id="nextState"/>
+            <param id="nextDuration"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="private" endPc="268437618" name="&lt;globals/SimpleRunWalkDataFieldView/&lt;&gt;getSecondsRemaining&gt;" parent="SimpleRunWalkDataFieldView" startPc="268437596">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268442653" name="&lt;init&gt;" parent="SimpleRunWalkDataFieldView" startPc="268441445">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437651" name="initialize" parent="DataFieldSettingsView" startPc="268437619">
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438080" name="onShow" parent="DataFieldSettingsView" startPc="268437652">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441444" name="&lt;init&gt;" parent="DataFieldSettingsView" startPc="268441426">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438103" name="initialize" parent="DataFieldSettingsDelegate" startPc="268438081">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441406" name="&lt;init&gt;" parent="DataFieldSettingsDelegate" startPc="268441388">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438216" name="initialize" parent="MinSec" startPc="268438104">
+            <param id="active"/>
+            <param id="min"/>
+            <param id="sec"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> color Color of the rectangle</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438908" name="draw" parent="MinSec" startPc="268438217">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> <div class="param"> dc Device context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441425" name="&lt;init&gt;" parent="MinSec" startPc="268441407">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439080" name="initialize" parent="NumberFactory" startPc="268438909">
+            <param id="unselectedKeys"/>
+            <param id="start"/>
+            <param id="stop"/>
+            <param id="increment"/>
+            <param id="options"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> start Number to start with</div><br/> <div class="param"> stop Number to end with</div><br/> <div class="param"> increment How far apart the numbers should be</div><br/> <div class="param"> options Dictionary of options</div><br/> @option options :font The font to use<br/> @option options :format The number format to display<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439106" name="getIndex" parent="NumberFactory" startPc="268439081">
+            <param id="value"/>
+            <documentation><![CDATA[<div class="description"> Get the index of a number item<br/> <div class="param"> value The number to get the index of</div><br/> <div class="returns">Returns  The index of the number</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439582" name="getDrawable" parent="NumberFactory" startPc="268439107">
+            <param id="index"/>
+            <param id="selected"/>
+            <documentation><![CDATA[<div class="description"> Generate a Drawable instance for an item<br/> <div class="param"> index The item index</div><br/> <div class="param"> selected true if the current item is selected, false otherwise</div><br/> <div class="returns">Returns  Drawable for the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439608" name="getValue" parent="NumberFactory" startPc="268439583">
+            <param id="index"/>
+            <documentation><![CDATA[<div class="description"> Get the value of the item at the given index<br/> <div class="param"> index Index of the item to get the value of</div><br/> <div class="returns">Returns  Value of the item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439646" name="getSize" parent="NumberFactory" startPc="268439609">
+            <documentation><![CDATA[<div class="description"> Get the number of picker items<br/> <div class="returns">Returns  Number of items</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268442691" name="&lt;init&gt;" parent="NumberFactory" startPc="268442673">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440275" name="initialize" parent="TimePicker" startPc="268439647">
+            <param id="storageKey"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440348" name="onUpdate" parent="TimePicker" startPc="268440276">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/> <div class="param"> dc Device Context</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268442672" name="&lt;init&gt;" parent="TimePicker" startPc="268442654">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440391" name="initialize" parent="TimePickerDelegate" startPc="268440349">
+            <param id="storageKey"/>
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440427" name="onCancel" parent="TimePickerDelegate" startPc="268440392">
+            <documentation><![CDATA[<div class="description"> Handle a cancel event from the picker<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440560" name="onAccept" parent="TimePickerDelegate" startPc="268440428">
+            <param id="values"/>
+            <documentation><![CDATA[<div class="description"> Handle a confirm event from the picker<br/> <div class="param"> values The values chosen in the picker</div><br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441300" name="&lt;init&gt;" parent="TimePickerDelegate" startPc="268441282">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440613" name="initialize" parent="SimpleRunWalkDataFieldApp" startPc="268440561">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440618" name="onStart" parent="SimpleRunWalkDataFieldApp" startPc="268440614">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440623" name="onStop" parent="SimpleRunWalkDataFieldApp" startPc="268440619">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440662" name="onSettingsChanged" parent="SimpleRunWalkDataFieldApp" startPc="268440624">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440701" name="onStorageChanged" parent="SimpleRunWalkDataFieldApp" startPc="268440663">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440729" name="getInitialView" parent="SimpleRunWalkDataFieldApp" startPc="268440702">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440817" name="getSettingsView" parent="SimpleRunWalkDataFieldApp" startPc="268440730">
+            <documentation><![CDATA[<div class="description"> Return the settings view and delegate for the app<br/> <div class="returns">Returns  Array Pair [View, Delegate]</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441338" name="&lt;init&gt;" parent="SimpleRunWalkDataFieldApp" startPc="268441320">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440846" name="getApp" startPc="268440818">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440888" name="initialize" parent="DataFieldSettingsMenu" startPc="268440847">
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441319" name="&lt;init&gt;" parent="DataFieldSettingsMenu" startPc="268441301">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268440921" name="initialize" parent="DataFieldSettingsMenuDelegate" startPc="268440889">
+            <param id="view"/>
+            <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441247" name="onSelect" parent="DataFieldSettingsMenuDelegate" startPc="268440922">
+            <param id="menuItem"/>
+            <documentation><![CDATA[<div class="description"> Handle a menu item selection<br/> <div class="param"> menuItem The selected menu item</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268441280" name="onBack" parent="DataFieldSettingsMenuDelegate" startPc="268441248">
+            <documentation><![CDATA[<div class="description"> Handle the back key being pressed<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441357" name="&lt;init&gt;" parent="DataFieldSettingsMenuDelegate" startPc="268441339">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441382" name="&lt;init&gt;" parent="Drawables" startPc="268441382">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441384" name="&lt;init&gt;" parent="Fonts" startPc="268441384">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441386" name="&lt;init&gt;" parent="JsonData" startPc="268441386">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441385" name="&lt;init&gt;" parent="Layouts" startPc="268441385">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441383" name="&lt;init&gt;" parent="Menus" startPc="268441383">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441387" name="&lt;init&gt;" parent="Strings" startPc="268441387">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" endPc="268441381" name="&lt;init&gt;" parent="Rez" startPc="268441358">
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
