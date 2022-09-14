@@ -10,18 +10,18 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 //! Initial view for the settings
-class DataFieldSettingsView extends WatchUi.View {
-    private var _parentView as SimpleRunWalkDataFieldView;
+class SettingsView extends WatchUi.View {
+    private var _parentView as DataFieldView;
 
 
     //! Constructor
-    public function initialize(view as SimpleRunWalkDataFieldView) {
+    public function initialize(view as DataFieldView) {
         _parentView = view;
         View.initialize();
     }
 
     public function onShow() as Void {
-        var menu = new $.DataFieldSettingsMenu();
+        var menu = new $.SettingsMenu();
 
         menu.addItem(new WatchUi.MenuItem("Run Time", null, :run, null));
         menu.addItem(new WatchUi.MenuItem("Walk Time", null, :walk, null));
@@ -36,12 +36,12 @@ class DataFieldSettingsView extends WatchUi.View {
         var internalTonesLabel = WatchUi.loadResource($.Rez.Strings.intervalTones_setting_title) as String;
         menu.addItem(new WatchUi.ToggleMenuItem(internalTonesLabel, null, :intervalTones, intervalTones, null));
 
-        WatchUi.pushView(menu, new $.DataFieldSettingsMenuDelegate(_parentView), WatchUi.SLIDE_IMMEDIATE);
+        WatchUi.pushView(menu, new $.SettingsMenuDelegate(_parentView), WatchUi.SLIDE_IMMEDIATE);
     }
 }
 
 //! Handle opening the settings menu
-class DataFieldSettingsDelegate extends WatchUi.BehaviorDelegate {
+class SettingsDelegate extends WatchUi.BehaviorDelegate {
 
     //! Constructor
     public function initialize() {

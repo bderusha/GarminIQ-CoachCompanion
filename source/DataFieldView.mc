@@ -7,33 +7,7 @@ import Toybox.Math;
 import Toybox.WatchUi;
 import Toybox.Attention;
 
-class DataFieldAlertView extends WatchUi.DataFieldAlert {
-    private var _mainView as SimpleRunWalkDataFieldView;
-    private var _counter as Number = 0;
-
-    //! Constructor
-    public function initialize(view as SimpleRunWalkDataFieldView) {
-        DataFieldAlert.initialize();
-        _mainView = view;
-    }
-
-    //! Update the view
-    //! @param dc Device context
-    public function onUpdate(dc as Dc) as Void {
-        // var h = dc.getHeight();
-        // var w = dc.getWidth();
-        // var md_h = dc.getFontHeight(Graphics.FONT_MEDIUM);
-        // dc.drawText(w / 2, (h/2 - md_h/2), Graphics.FONT_MEDIUM, message, Graphics.TEXT_JUSTIFY_CENTER);
-        // WatchUi.requestUpdate();
-        // if (_counter >= 10) {
-        //     _mainView.onUpdate(dc);
-        //     WatchUi.requestUpdate();
-        // }
-        // WatchUi.pushView(_mainView, null, WatchUi.SLIDE_IMMEDIATE);
-    }
-}
-
-class SimpleRunWalkDataFieldView extends WatchUi.DataField {
+class DataFieldView extends WatchUi.DataField {
     private enum RunWalkState
     {
         STATE_RUNNING,
@@ -138,11 +112,6 @@ class SimpleRunWalkDataFieldView extends WatchUi.DataField {
                 }
             }
         }
-        // if ((WatchUi.DataField has :showAlert) && (_runWalkState != STATE_INACTIVE)
-        //             && !_alertDisplayed) {
-        //             WatchUi.DataField.showAlert(new $.DataFieldAlertView(self));
-        //             _alertDisplayed = true;
-        //         }
     }
 
     //! Update the view

@@ -2,12 +2,12 @@ import Toybox.Application;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
-class SimpleRunWalkDataFieldApp extends Application.AppBase {
+class App extends Application.AppBase {
     private var _mainView as View;
 
     function initialize() {
         AppBase.initialize();
-        _mainView = new SimpleRunWalkDataFieldView();
+        _mainView = new DataFieldView();
     }
 
     // onStart() is called on application start up
@@ -41,6 +41,6 @@ class SimpleRunWalkDataFieldApp extends Application.AppBase {
 
 }
 
-function getApp() as SimpleRunWalkDataFieldApp {
-    return Application.getApp() as SimpleRunWalkDataFieldApp;
+function getApp() as App {
+    return Application.getApp() as App;
 }

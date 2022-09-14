@@ -239,10 +239,10 @@ class TimePicker extends WatchUi.Picker {
 //! Responds to a time picker selection or cancellation
 class TimePickerDelegate extends WatchUi.PickerDelegate {
     private var _storageKey as String;
-    private var _parentView as SimpleRunWalkDataFieldView;
+    private var _parentView as DataFieldView;
 
     //! Constructor
-    public function initialize(storageKey as String, view as SimpleRunWalkDataFieldView) {
+    public function initialize(storageKey as String, view as DataFieldView) {
         _storageKey = storageKey;
         _parentView = view;
         PickerDelegate.initialize();

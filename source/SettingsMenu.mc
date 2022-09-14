@@ -1,15 +1,9 @@
-//
-// Copyright 2016-2021 by Garmin Ltd. or its subsidiaries.
-// Subject to Garmin SDK License Agreement and Wearables
-// Application Developer Agreement.
-//
-
 import Toybox.Application.Properties;
 import Toybox.Lang;
 import Toybox.WatchUi;
 
 //! The settings menu
-class DataFieldSettingsMenu extends WatchUi.Menu2 {
+class SettingsMenu extends WatchUi.Menu2 {
 
     //! Constructor
     public function initialize() {
@@ -18,11 +12,11 @@ class DataFieldSettingsMenu extends WatchUi.Menu2 {
 }
 
 //! Handles menu input and stores the menu data
-class DataFieldSettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
-    private var _parentView as SimpleRunWalkDataFieldView;
+class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
+    private var _parentView as DataFieldView;
 
     //! Constructor
-    public function initialize(view as SimpleRunWalkDataFieldView) {
+    public function initialize(view as DataFieldView) {
         Menu2InputDelegate.initialize();
         _parentView = view;
     }
@@ -36,10 +30,6 @@ class DataFieldSettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
             WatchUi.pushView(new $.TimePicker("runDuration"), new $.TimePickerDelegate("runDuration", _parentView), WatchUi.SLIDE_IMMEDIATE);
         } else if (id == :walk) {
             WatchUi.pushView(new $.TimePicker("walkDuration"), new $.TimePickerDelegate("walkDuration", _parentView), WatchUi.SLIDE_IMMEDIATE);
-        // } else if (id.equals("intervalVibrate") || id.equals("intervalTones")) {
-        //     Properties.setValue(id, menuItem.isEnabled());
-        //     _parentView.handleSettingUpdate();
-        // }
         } else if (id == :intervalVibrate || id == :intervalTones){
             Properties.setValue(id.toString(), menuItem.isEnabled());
             _parentView.handleSettingUpdate();
