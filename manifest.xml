@@ -4,29 +4,76 @@
     <!--
         Use "Monkey C: Edit Application" from the Visual Studio Code command palette
         to update the application attributes.
+
     -->
-    <iq:application id="8663f608-e3c1-488d-9778-1c1c3ca53e30" type="datafield" name="@Strings.AppName" entry="App" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0">
+    <iq:application id="5ed7a98b-5beb-415b-b154-a0d3f78ff55e" type="datafield" name="@Strings.AppName" entry="App" launcherIcon="@Drawables.LauncherIcon" minApiLevel="3.2.0">
         <!--
             Use the following from the Visual Studio Code comand palette to edit
             the build targets:
             "Monkey C: Set Products by Version" - Lets you add all producs that meet the
                                                     minimum SDK version of the application
             "Monkey C: Edit Products" - Lets you add or remove any product
+
         -->
         <iq:products>
+            <iq:product id="d2air"/>
+            <iq:product id="d2airx10"/>
+            <iq:product id="d2mach1"/>
+            <iq:product id="descentg1"/>
+            <iq:product id="enduro"/>
+            <iq:product id="epix2"/>
+            <iq:product id="fenix6"/>
+            <iq:product id="fenix6pro"/>
+            <iq:product id="fenix6s"/>
+            <iq:product id="fenix6spro"/>
+            <iq:product id="fenix6xpro"/>
+            <iq:product id="fenix7"/>
+            <iq:product id="fenix7s"/>
+            <iq:product id="fenix7x"/>
+            <iq:product id="fr245"/>
+            <iq:product id="fr245m"/>
             <iq:product id="fr255"/>
             <iq:product id="fr255m"/>
             <iq:product id="fr255s"/>
             <iq:product id="fr255sm"/>
+            <iq:product id="fr55"/>
+            <iq:product id="fr745"/>
+            <iq:product id="fr945"/>
+            <iq:product id="fr945lte"/>
             <iq:product id="fr955"/>
+            <iq:product id="instinct2"/>
+            <iq:product id="instinct2s"/>
+            <iq:product id="legacyherocaptainmarvel"/>
+            <iq:product id="legacyherofirstavenger"/>
+            <iq:product id="legacysagadarthvader"/>
+            <iq:product id="legacysagarey"/>
+            <iq:product id="marqadventurer"/>
+            <iq:product id="marqathlete"/>
+            <iq:product id="marqaviator"/>
+            <iq:product id="marqcaptain"/>
+            <iq:product id="marqcommander"/>
+            <iq:product id="marqdriver"/>
+            <iq:product id="marqexpedition"/>
+            <iq:product id="marqgolfer"/>
+            <iq:product id="venu"/>
+            <iq:product id="venu2"/>
+            <iq:product id="venu2plus"/>
+            <iq:product id="venu2s"/>
+            <iq:product id="venu2system5preview"/>
+            <iq:product id="venud"/>
+            <iq:product id="venusq"/>
+            <iq:product id="venusq2"/>
+            <iq:product id="venusq2m"/>
+            <iq:product id="venusqm"/>
+            <iq:product id="vivoactive3m"/>
+            <iq:product id="vivoactive4"/>
+            <iq:product id="vivoactive4s"/>
         </iq:products>
         <!--
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
             palette to update permissions.
         -->
-        <iq:permissions>
-            <iq:uses-permission id="DataFieldAlert"/>
-        </iq:permissions>
+        <iq:permissions/>
         <!--
             Use "Monkey C: Edit Languages" from the Visual Studio Code command
             palette to edit your compatible language list.
