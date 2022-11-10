@@ -11,6 +11,7 @@ class Constants {
     public static const MILLISECONDS_TO_SECONDS = 0.001;
 
     public static const METERS_TO_MILES = 0.000621371;
+    public static const METERS_TO_KM = 0.001;
 
     public static const MAGIC_MILE_DURATIONS = [
         [360, 30], // mm7_00

@@ -3,7 +3,7 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class App extends Application.AppBase {
-    private var _mainView as View;
+    private var _mainView as DataFieldView;
 
     function initialize() {
         AppBase.initialize();

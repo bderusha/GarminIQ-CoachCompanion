@@ -26,8 +26,10 @@ class SettingsMenuDelegate extends WatchUi.Menu2InputDelegate {
     public function onSelect(menuItem as ToggleMenuItem or MenuItem) as Void {
         var id = menuItem.getId();
 
-        if (id == :intervalVibrate || id == :intervalTones){
-            Properties.setValue(id.toString(), menuItem.isEnabled());
+        if (id.equals("intervalVibrate") || id.equals("intervalTones")){
+            var key = id;
+            var val = menuItem.isEnabled();
+            Properties.setValue(key, val);
             _parentView.handleSettingUpdate();
         }
     }

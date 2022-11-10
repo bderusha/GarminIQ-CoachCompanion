@@ -17,13 +17,15 @@ class SettingsView extends WatchUi.View {
     public function onShow() as Void {
         var menu = new $.SettingsMenu();
 
-        var intervalVibrate = Properties.getValue("intervalVibrate");
+        var intervalVibratePropKey = "intervalVibrate";
+        var intervalVibrate = Properties.getValue(intervalVibratePropKey);
         var internalVibrateLabel = WatchUi.loadResource($.Rez.Strings.intervalVibrate_setting_title) as String;
-        menu.addItem(new WatchUi.ToggleMenuItem(internalVibrateLabel, null, :intervalVibrate, intervalVibrate, null));
+        menu.addItem(new WatchUi.ToggleMenuItem(internalVibrateLabel, null, intervalVibratePropKey, intervalVibrate, null));
         
-        var intervalTones = Properties.getValue("intervalTones");
+        var intervalTonesPropKey = "intervalTones";
+        var intervalTones = Properties.getValue(intervalTonesPropKey);
         var internalTonesLabel = WatchUi.loadResource($.Rez.Strings.intervalTones_setting_title) as String;
-        menu.addItem(new WatchUi.ToggleMenuItem(internalTonesLabel, null, :intervalTones, intervalTones, null));
+        menu.addItem(new WatchUi.ToggleMenuItem(internalTonesLabel, null, intervalTonesPropKey, intervalTones, null));
 
         WatchUi.pushView(menu, new $.SettingsMenuDelegate(_parentView), WatchUi.SLIDE_IMMEDIATE);
     }

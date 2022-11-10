@@ -1,27 +1,39 @@
 <resources>
 
     <properties>
+
+        <property id="rwrMagicMilePace" type="number">2</property>
+
+        <property id="intervalVibrate" type="boolean">false</property>
+        <property id="intervalTones" type="boolean">false</property>
+
+        <property id="enableLongRun" type="boolean">false</property>
+        <property id="longRunMagicMilePace" type="number">2</property>
+
+        <property id="walkFirst" type="boolean">false</property>
         <property id="manualRunWalk" type="boolean">false</property>
         <property id="runDuration" type="number">60</property>
         <property id="walkDuration" type="number">60</property>
 
-        <property id="magicMilePace" type="number">2</property>
-
-        <property id="intervalVibrate" type="boolean">true</property>
-        <property id="intervalTones" type="boolean">true</property>
     </properties>
 
     <strings>
-        <string id="manualRunWalk_group_title">Custom Run/Walk Time</string>
-        <string id="manualRunWalk_group_description">This will override any MagicMile pace presets</string>
+        <string id="rwrMagicMilePace_setting_title">'Run Walk Run® Long Run' Pace</string>
+        
         <string id="alerts_group_title">Alerts</string>
         <string id="alerts_group_description">How to know when to transition</string>
-        <string id="manualRunWalk_setting_title">Use Custom Run/Walk Time</string>
-        <string id="runDuration_setting_title">Run Duration (in seconds)</string>
-        <string id="walkDuration_setting_title">Walk Duration (in seconds)</string>
-        <string id="intervalVibrate_setting_title">Vibrate</string>
-        <string id="intervalTones_setting_title">Play tones</string>
-        <string id="magicMilePace_setting_title">Magic Mile</string>
+            <string id="intervalVibrate_setting_title">Vibrate</string>
+            <string id="intervalTones_setting_title">Play tones</string>
+        
+        <string id="advanced_group_title">Advanced Settings</string>
+            <string id="walkFirst_setting_title">Begin with walking</string>
+            <string id="enableLongRun_setting_title">Enable Run Walk Run® with 'Long Easy Run' workouts</string>
+            <string id="longRunMagicMilePace_setting_title">'Long Easy Run' Pace</string>
+
+            <string id="manualRunWalk_setting_title">Use A Custom Run/Walk Time</string>
+            <string id="runDuration_setting_title">Custom Run Duration (in seconds)</string>
+            <string id="walkDuration_setting_title">Custom Walk Duration (in seconds)</string>
+
         <string id="mm7_00">7:00 [Run 6:00 | Walk 0:30] </string>
         <string id="mm7_30">7:30 [Run 5:00 | Walk 0:30] </string>
         <string id="mm8_00a">8:00 [Run 4:00 | Walk 0:30] </string>
@@ -54,7 +66,7 @@
     </strings>
 
     <settings>
-        <setting propertyKey="@Properties.magicMilePace" title="@Strings.magicMilePace_setting_title">
+        <setting propertyKey="@Properties.rwrMagicMilePace" title="@Strings.rwrMagicMilePace_setting_title">
             <settingConfig type="list">
                 <listEntry value="0">@Strings.mm7_00</listEntry>
                 <listEntry value="1">@Strings.mm7_30</listEntry>
@@ -98,12 +110,53 @@
             </setting>
         </group>
 
+        <group id="advanced" title="@Strings.advanced_group_title" >
+            <setting propertyKey="@Properties.walkFirst" title="@Strings.walkFirst_setting_title">
+                <settingConfig type="boolean" />
+            </setting>
 
-        <group id="manualRunWalkGroup" title="@Strings.manualRunWalk_group_title" description="@Strings.manualRunWalk_group_description"> <!-- enableIfTrue="@Properties.manualRunWalk"> -->
+            <setting propertyKey="@Properties.enableLongRun" title="@Strings.enableLongRun_setting_title">
+                <settingConfig type="boolean" />
+            </setting>
+
+            <setting propertyKey="@Properties.longRunMagicMilePace" title="@Strings.longRunMagicMilePace_setting_title">
+                <settingConfig type="list">
+                    <listEntry value="0">@Strings.mm7_00</listEntry>
+                    <listEntry value="1">@Strings.mm7_30</listEntry>
+                    <listEntry value="2">@Strings.mm8_00a</listEntry>
+                    <listEntry value="3">@Strings.mm8_00b</listEntry>
+                    <listEntry value="4">@Strings.mm8_30a</listEntry>
+                    <listEntry value="5">@Strings.mm8_30b</listEntry>
+                    <listEntry value="6">@Strings.mm9_00a</listEntry>
+                    <listEntry value="7">@Strings.mm9_00b</listEntry>
+                    <listEntry value="8">@Strings.mm9_30a</listEntry>
+                    <listEntry value="9">@Strings.mm9_30b</listEntry>
+                    <listEntry value="10">@Strings.mm9_30c</listEntry>
+                    <listEntry value="11">@Strings.mm9_30d</listEntry>
+                    <listEntry value="12">@Strings.mm9_30e</listEntry>
+                    <listEntry value="13">@Strings.mm10_45a</listEntry>
+                    <listEntry value="14">@Strings.mm10_45b</listEntry>
+                    <listEntry value="15">@Strings.mm10_45c</listEntry>
+                    <listEntry value="16">@Strings.mm10_45d</listEntry>
+                    <listEntry value="17">@Strings.mm10_45e</listEntry>
+                    <listEntry value="18">@Strings.mm12_15a</listEntry>
+                    <listEntry value="19">@Strings.mm12_15b</listEntry>
+                    <listEntry value="20">@Strings.mm12_15c</listEntry>
+                    <listEntry value="21">@Strings.mm14_30</listEntry>
+                    <listEntry value="22">@Strings.mm15_45</listEntry>
+                    <listEntry value="23">@Strings.mm17_00a</listEntry>
+                    <listEntry value="24">@Strings.mm17_00b</listEntry>
+                    <listEntry value="25">@Strings.mm17_00c</listEntry>
+                    <listEntry value="26">@Strings.mm18_30a</listEntry>
+                    <listEntry value="27">@Strings.mm18_30b</listEntry>
+                    <listEntry value="28">@Strings.mm18_30c</listEntry>
+                </settingConfig>
+            </setting>
+
             <setting propertyKey="@Properties.manualRunWalk" title="@Strings.manualRunWalk_setting_title">
                 <settingConfig type="boolean" />
             </setting>
-            
+
             <setting propertyKey="@Properties.runDuration" title="@Strings.runDuration_setting_title">
                 <settingConfig type="numeric" min="1"/> 
             </setting>

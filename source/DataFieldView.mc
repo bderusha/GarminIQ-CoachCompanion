@@ -1,32 +1,37 @@
 import Toybox.Application.Properties;
 import Toybox.Activity;
+import Toybox.Attention;
 import Toybox.Graphics;
 import Toybox.Lang;
-import Toybox.Time;
 import Toybox.Math;
+import Toybox.Time;
 import Toybox.WatchUi;
-import Toybox.Attention;
+import Toybox.System;
 
 class DataFieldView extends WatchUi.DataField {
     // Settings
-    private var _manualRunWalk as Boolean;
-    private var _magicMilePaceIndex as Number;
-    private var _runDuration as Number;
-    private var _walkDuration as Number;
-    private var _vibrateEnabled as Boolean;
-    private var _tonesEnabled as Boolean;
+    private var _manualRunWalk as Boolean?;
+    private var _walkFirst as Boolean?;
+    private var _enableLongRun as Boolean?;
+    private var _rwrPaceIndex as Number?;
+    private var _longRunPaceIndex as Number?;
+    private var _runDuration as Number?;
+    private var _walkDuration as Number?;
+    private var _vibrateEnabled as Boolean?;
+    private var _tonesEnabled as Boolean?;
+    private var _distanceUnits as UnitsSystem?;
 
     // RunWalk Interval State 
     private var _intervalStartAt as Number = 0;
     private var _intervalEndAt as Number = 0;
     private var _timerSeconds as Number = 0;
     private var _workoutTargetDistance as Float = 0.0;
-    private var _milesToGo as Float = 0.0;
-    public var _runWalkState as RunWalkState = Constants.STATE_INACTIVE;
+    private var _distanceToGo as Float = 0.0;
+    public var _runWalkState as Constants.RunWalkState = Constants.STATE_INACTIVE;
 
     // Display values
     private var _dataColor as Graphics.ColorType = Graphics.COLOR_LT_GRAY;
-    private var _displayState as String;
+    private var _displayState as String = "Run";
 
     // Set the label of the data field here.
     public function initialize() {
@@ -37,7 +42,11 @@ class DataFieldView extends WatchUi.DataField {
 
     public function handleSettingUpdate() as Void {
         _manualRunWalk = Properties.getValue("manualRunWalk");
-        _magicMilePaceIndex = Properties.getValue("magicMilePace");
+        _enableLongRun = Properties.getValue("enableLongRun");
+        _walkFirst = Properties.getValue("walkFirst");
+        _rwrPaceIndex = Properties.getValue("rwrMagicMilePace");
+        _longRunPaceIndex = Properties.getValue("longRunMagicMilePace");
+
         _vibrateEnabled = Properties.getValue("intervalVibrate");
         _tonesEnabled = Properties.getValue("intervalTones");
 
@@ -45,9 +54,12 @@ class DataFieldView extends WatchUi.DataField {
             _runDuration = Properties.getValue("runDuration");
             _walkDuration = Properties.getValue("walkDuration");
         } else {
-            _runDuration = Constants.MAGIC_MILE_DURATIONS[_magicMilePaceIndex][0];
-            _walkDuration = Constants.MAGIC_MILE_DURATIONS[_magicMilePaceIndex][1];
+            _runDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][0];
+            _walkDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][1];
         }
+
+        var mySettings = System.getDeviceSettings();
+        _distanceUnits = mySettings.distanceUnits;
     }
 
     public function compute(info as Info) as Void {
@@ -72,7 +84,11 @@ class DataFieldView extends WatchUi.DataField {
         var distance = info.elapsedDistance;
         if (distance != null) {
             var metersToGo = _workoutTargetDistance - distance;
-            _milesToGo = Constants.METERS_TO_MILES * metersToGo;
+            if (_distanceUnits == System.UNIT_METRIC){
+                _distanceToGo = Constants.METERS_TO_KM *  metersToGo;
+            } else if (_distanceUnits == System.UNIT_STATUTE){
+                _distanceToGo = Constants.METERS_TO_MILES * metersToGo;
+            }
         }
     }
 
@@ -103,17 +119,18 @@ class DataFieldView extends WatchUi.DataField {
             var minutes = secondsRemaining / 60;
             var seconds = secondsRemaining % 60;
             var timeRemaining = Lang.format("$1$:$2$", [minutes.format("%d"), seconds.format("%02d")]);
-            var distanceRemaining = _milesToGo.format("%.2f");
+            var distanceRemaining = _distanceToGo.format("%.2f");
 
-            dc.drawText(w / 2, (h/4 - md_h/2), Graphics.FONT_LARGE, _displayState, Graphics.TEXT_JUSTIFY_CENTER);
+            // dc.drawText(w / 2, (md_h/2), Graphics.FONT_LARGE, _displayState, Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(w / 2, (h/2 - num_thai_h/2), Graphics.FONT_NUMBER_THAI_HOT, distanceRemaining, Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(w / 2, (h/4 - md_h/2), Graphics.FONT_LARGE, _displayState, Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(w / 2, ((h*3/4) - num_med_h/2), Graphics.FONT_NUMBER_MEDIUM, timeRemaining, Graphics.TEXT_JUSTIFY_CENTER);
         } else {
             var minutes = _timerSeconds / 60;
             var seconds = _timerSeconds % 60;
             var totalTime = Lang.format("$1$:$2$", [minutes.format("%d"), seconds.format("%02d")]);
-            dc.drawText(w / 2, (h/4 - sm_h/2), Graphics.FONT_SMALL, "Waiting for", Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(w / 2, (h/2 - num_thai_h/2), Graphics.FONT_NUMBER_THAI_HOT, totalTime, Graphics.TEXT_JUSTIFY_CENTER);
+            dc.drawText(w / 2, (h/4 - sm_h/2), Graphics.FONT_SMALL, "Waiting for", Graphics.TEXT_JUSTIFY_CENTER);
             dc.drawText(w / 2, ((h*3/4) - sm_h/2), Graphics.FONT_SMALL, "RunWalkRun", Graphics.TEXT_JUSTIFY_CENTER);
         }
     }
@@ -122,11 +139,21 @@ class DataFieldView extends WatchUi.DataField {
         manageRunWalkRunWorkout();
     }
 
-    public function onTimerStart() as Void {
-        var debugMode = false;
-        if (debugMode) {
-            _intervalEndAt = _runDuration;
+    public function debug() as Void {
+        _intervalStartAt = 0;
+        _workoutTargetDistance = 4000.0;
+        _runDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][0];
+        _walkDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][1];
+        if (_walkFirst) {
+            _intervalEndAt = _intervalStartAt + _walkDuration;
+            _runWalkState = Constants.STATE_WALKING;
+            _displayState = "Walk";
+            _dataColor = Graphics.COLOR_ORANGE;
+        } else {
+            _intervalEndAt = _intervalStartAt + _runDuration;
             _runWalkState = Constants.STATE_RUNNING;
+            _displayState = "Run";
+            _dataColor = Graphics.COLOR_DK_GREEN;
         }
     }
 
@@ -137,20 +164,47 @@ class DataFieldView extends WatchUi.DataField {
     private function manageRunWalkRunWorkout() as Void {
         var workout = Activity.getCurrentWorkoutStep();
         var info = Activity.getActivityInfo();
-        if (workout != null && workout.notes.find("Run Walk Run") == 0) {
-            System.println("RUN WALK RUN started");
-            _intervalStartAt = _timerSeconds;
-            _intervalEndAt = _intervalStartAt + _runDuration;
-            _runWalkState = Constants.STATE_RUNNING;
-            _displayState = "Run";
-            _dataColor = Graphics.COLOR_DK_GREEN;
-            _workoutTargetDistance = info.elapsedDistance + workout.step.durationValue;
-        } else {
-            _runWalkState = Constants.STATE_INACTIVE;
+        if (workout != null){
+            System.println("Workout name: "+workout.name);
+            System.println("Workout notes: "+workout.notes);
         }
+        if (workout != null){
+            var startRunWalk = false;
+            if(workout.notes.find("Run Walk Run") == 0){
+                startRunWalk = true;
+                if (!_manualRunWalk) {
+                    _runDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][0];
+                    _walkDuration = Constants.MAGIC_MILE_DURATIONS[_rwrPaceIndex][1];
+                }
+            } else if(_enableLongRun && workout.notes.find("Run at an easy pace") == 0){
+                startRunWalk = true;
+                if (!_manualRunWalk) {
+                    _runDuration = Constants.MAGIC_MILE_DURATIONS[_longRunPaceIndex][0];
+                    _walkDuration = Constants.MAGIC_MILE_DURATIONS[_longRunPaceIndex][1];
+                }
+            }
+            if (startRunWalk) {
+                System.println("RUN WALK RUN started");
+                _intervalStartAt = _timerSeconds;
+                _workoutTargetDistance = info.elapsedDistance + workout.step.durationValue;
+                if (_walkFirst) {
+                    _intervalEndAt = _intervalStartAt + _walkDuration;
+                    _runWalkState = Constants.STATE_WALKING;
+                    _displayState = "Walk";
+                    _dataColor = Graphics.COLOR_ORANGE;
+                } else {
+                    _intervalEndAt = _intervalStartAt + _runDuration;
+                    _runWalkState = Constants.STATE_RUNNING;
+                    _displayState = "Run";
+                    _dataColor = Graphics.COLOR_DK_GREEN;
+                }
+            } else {
+            _runWalkState = Constants.STATE_INACTIVE;
+            }
+        } 
     }
 
-    private function updateState(nextState as RunWalkState, nextDuration as Number, displayName as String, color as Graphics.ColorValue) as Void {
+    private function updateState(nextState as Constants.RunWalkState, nextDuration as Number, displayName as String, color as Graphics.ColorValue) as Void {
         var secondsRemaining = getSecondsRemaining();
 
         if (secondsRemaining <= 0) {
