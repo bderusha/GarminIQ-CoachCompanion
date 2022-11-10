@@ -2,13 +2,13 @@
 
     <properties>
 
-        <property id="rwrMagicMilePace" type="number">2</property>
+        <property id="rwrMagicMilePace" type="number">6</property>
 
-        <property id="intervalVibrate" type="boolean">false</property>
-        <property id="intervalTones" type="boolean">false</property>
+        <property id="intervalVibrate" type="boolean">true</property>
+        <property id="intervalTones" type="boolean">true</property>
 
         <property id="enableLongRun" type="boolean">false</property>
-        <property id="longRunMagicMilePace" type="number">2</property>
+        <property id="longRunMagicMilePace" type="number">13</property>
 
         <property id="walkFirst" type="boolean">false</property>
         <property id="manualRunWalk" type="boolean">false</property>
