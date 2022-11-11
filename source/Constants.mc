@@ -43,5 +43,5 @@ class Constants {
         [5, 30],   // mm18_30a
         [5, 25],   // mm18_30b
         [4, 30]   // mm18_30c
-    ];
+    ] as Array<Array<Number>>;
 }
