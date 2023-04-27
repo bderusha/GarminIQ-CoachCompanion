@@ -5,12 +5,9 @@ import Toybox.WatchUi;
 
 //! Initial view for the settings
 class SettingsView extends WatchUi.View {
-    private var _parentView as DataFieldView;
-
 
     //! Constructor
-    public function initialize(view as DataFieldView) {
-        _parentView = view;
+    public function initialize() {
         View.initialize();
     }
 
@@ -27,7 +24,7 @@ class SettingsView extends WatchUi.View {
         var internalTonesLabel = WatchUi.loadResource($.Rez.Strings.intervalTones_setting_title) as String;
         menu.addItem(new WatchUi.ToggleMenuItem(internalTonesLabel, null, intervalTonesPropKey, intervalTones, null));
 
-        WatchUi.pushView(menu, new $.SettingsMenuDelegate(_parentView), WatchUi.SLIDE_IMMEDIATE);
+        WatchUi.pushView(menu, new $.SettingsMenuDelegate(), WatchUi.SLIDE_IMMEDIATE);
     }
 }
 
@@ -37,6 +34,12 @@ class SettingsDelegate extends WatchUi.BehaviorDelegate {
     //! Constructor
     public function initialize() {
         BehaviorDelegate.initialize();
+    }
+
+    public function onBack() as Boolean {
+        System.println("SettingsDelegate: onBack()");
+        WatchUi.popView(WatchUi.SLIDE_IMMEDIATE);
+        return false;
     }
 }
 

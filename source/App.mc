@@ -32,13 +32,6 @@ class App extends Application.AppBase {
     function getInitialView() as Array<Views or InputDelegates>? {
         return [ _mainView ] as Array<Views or InputDelegates>;
     }
-
-    //! Return the settings view and delegate for the app
-    //! @return Array Pair [View, Delegate]
-    public function getSettingsView() as Array<Views or InputDelegates>? {
-        return [new $.SettingsView(_mainView), new $.SettingsDelegate()] as Array<Views or InputDelegates>;
-    }
-
 }
 
 function getApp() as App {
