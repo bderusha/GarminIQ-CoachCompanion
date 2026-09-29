@@ -1,0 +1,40 @@
+{
+    "name": "Garmin Connect IQ",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "CONNECTIQ_SDK_VERSION": "9.2.0"
+        }
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/desktop-lite:1": {
+            "password": "vscode",
+            "webPort": "6080",
+            "vncPort": "5901"
+        }
+    },
+    "remoteUser": "vscode",
+    "runArgs": [
+        "--shm-size=1g"
+    ],
+    "forwardPorts": [
+        6080
+    ],
+    "portsAttributes": {
+        "6080": {
+            "label": "Connect IQ desktop",
+            "onAutoForward": "notify"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "garmin.monkey-c"
+            ],
+            "settings": {
+                "monkeyC.developerKeyPath": "/home/vscode/.Garmin/ConnectIQ/developer_key"
+            }
+        }
+    },
+    "postCreateCommand": "/usr/local/share/connectiq/setup-user.sh"
+}
